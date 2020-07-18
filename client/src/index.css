@@ -1,0 +1,43 @@
+.video-item {
+    margin: 5px 5px;
+    max-width: 290px;
+}
+.video-item h4 {
+    margin-top: 0;
+}
+
+.modal {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    width: 400px;
+    background-color: white;
+    box-shadow: #000000;
+    padding: 10px 20px 15px;
+}
+
+.ranking {
+    margin: 0 10px;
+}
+
+.ranking h3 {
+    color: #4ba4a9;
+}
+
+.ranking ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ranking a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ranking a:hover {
+    color: #4ba4a9;
+}
