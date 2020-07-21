@@ -2,10 +2,12 @@ from flask import Flask
 from googleapiclient import discovery
 from googleapiclient.errors import HttpError
 from flask_cors import CORS
+from dotenv import load_dotenv
 import os
 
 app = Flask(__name__)
 CORS(app)
+load_dotenv()
 
 api_key = os.getenv("API_KEY")
 
